@@ -12,6 +12,7 @@
 		D58615281D26F88F0010ACD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58615261D26F88F0010ACD8 /* Main.storyboard */; };
 		D586152A1D26F88F0010ACD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58615291D26F88F0010ACD8 /* Assets.xcassets */; };
 		D586152D1D26F88F0010ACD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D586152B1D26F88F0010ACD8 /* LaunchScreen.storyboard */; };
+		D58615361D26F91E0010ACD8 /* grey-wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58615351D26F91E0010ACD8 /* grey-wood.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D58615291D26F88F0010ACD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D586152C1D26F88F0010ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D586152E1D26F88F0010ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58615351D26F91E0010ACD8 /* grey-wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grey-wood.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				D58615221D26F88F0010ACD8 /* AppDelegate.swift */,
 				D58615241D26F88F0010ACD8 /* ViewController.swift */,
 				D58615261D26F88F0010ACD8 /* Main.storyboard */,
+				D58615341D26F8EA0010ACD8 /* Images */,
 				D58615291D26F88F0010ACD8 /* Assets.xcassets */,
 				D586152B1D26F88F0010ACD8 /* LaunchScreen.storyboard */,
 				D586152E1D26F88F0010ACD8 /* Info.plist */,
 			);
 			path = "Current Weather";
+			sourceTree = "<group>";
+		};
+		D58615341D26F8EA0010ACD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D58615351D26F91E0010ACD8 /* grey-wood.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D586152D1D26F88F0010ACD8 /* LaunchScreen.storyboard in Resources */,
+				D58615361D26F91E0010ACD8 /* grey-wood.jpg in Resources */,
 				D586152A1D26F88F0010ACD8 /* Assets.xcassets in Resources */,
 				D58615281D26F88F0010ACD8 /* Main.storyboard in Resources */,
 			);
