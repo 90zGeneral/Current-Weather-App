@@ -54,6 +54,7 @@ class ViewController: UIViewController {
                                     
                                     //Update the UI elements
                                     self.cityNameLabel.text = self.cityTextField.text
+                                    self.cityNameLabel.textColor = UIColor.greenColor()
                                     self.weatherSummaryLabel.text = weatherSummary
                                     self.weatherSummaryLabel.textColor = UIColor.greenColor()
                                     self.cityTextField.text = ""
@@ -88,7 +89,7 @@ class ViewController: UIViewController {
                     
                     self.cityNameLabel.text = ""
                     self.weatherSummaryLabel.text = "That's NOT a city name. Try again!".capitalizedString
-                    self.weatherSummaryLabel.textColor = UIColor.cyanColor()
+                    self.weatherSummaryLabel.textColor = UIColor.orangeColor()
                     self.cityTextField.text = ""
                     
                 })

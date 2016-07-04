@@ -12,7 +12,7 @@
 		D58615281D26F88F0010ACD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58615261D26F88F0010ACD8 /* Main.storyboard */; };
 		D586152A1D26F88F0010ACD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58615291D26F88F0010ACD8 /* Assets.xcassets */; };
 		D586152D1D26F88F0010ACD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D586152B1D26F88F0010ACD8 /* LaunchScreen.storyboard */; };
-		D58615361D26F91E0010ACD8 /* grey-wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58615351D26F91E0010ACD8 /* grey-wood.jpg */; };
+		D58615381D2AE2A50010ACD8 /* weatherCondition.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58615371D2AE2A50010ACD8 /* weatherCondition.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		D58615291D26F88F0010ACD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D586152C1D26F88F0010ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D586152E1D26F88F0010ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D58615351D26F91E0010ACD8 /* grey-wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grey-wood.jpg"; sourceTree = "<group>"; };
+		D58615371D2AE2A50010ACD8 /* weatherCondition.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weatherCondition.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		D58615341D26F8EA0010ACD8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D58615351D26F91E0010ACD8 /* grey-wood.jpg */,
+				D58615371D2AE2A50010ACD8 /* weatherCondition.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -134,8 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D586152D1D26F88F0010ACD8 /* LaunchScreen.storyboard in Resources */,
-				D58615361D26F91E0010ACD8 /* grey-wood.jpg in Resources */,
 				D586152A1D26F88F0010ACD8 /* Assets.xcassets in Resources */,
+				D58615381D2AE2A50010ACD8 /* weatherCondition.jpg in Resources */,
 				D58615281D26F88F0010ACD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
