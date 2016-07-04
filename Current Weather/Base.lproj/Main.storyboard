@@ -61,6 +61,16 @@
                                     <action selector="findWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nfd-5c-Y7d"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZI-G5-Jts">
+                                <rect key="frame" x="48" y="245" width="225" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="LSL-xe-7jW"/>
+                                    <constraint firstAttribute="width" constant="225" id="mPD-9r-zPt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9D5-53-Iet">
                                 <rect key="frame" x="48" y="282" width="225" height="136"/>
                                 <constraints>
@@ -78,20 +88,23 @@
                             <constraint firstItem="9D5-53-Iet" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GWB-UQ-KAi"/>
                             <constraint firstItem="8ef-HQ-lJC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="GzI-wf-5XK"/>
                             <constraint firstItem="8TA-EP-Hws" firstAttribute="top" secondItem="HhW-EB-9hU" secondAttribute="bottom" constant="38" id="Ifm-Hy-dTE"/>
-                            <constraint firstItem="9D5-53-Iet" firstAttribute="top" secondItem="cYL-rh-GxZ" secondAttribute="bottom" constant="45" id="JA3-2A-WML"/>
                             <constraint firstItem="BjW-5g-ISz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PYB-R5-wrG"/>
                             <constraint firstItem="HhW-EB-9hU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="PwU-Fg-u8u"/>
                             <constraint firstItem="cYL-rh-GxZ" firstAttribute="top" secondItem="BjW-5g-ISz" secondAttribute="bottom" constant="14" id="R0b-i4-9mG"/>
+                            <constraint firstItem="DZI-G5-Jts" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c8p-XK-ekO"/>
+                            <constraint firstItem="9D5-53-Iet" firstAttribute="top" secondItem="DZI-G5-Jts" secondAttribute="bottom" constant="8" id="dH7-ie-IgX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8ef-HQ-lJC" secondAttribute="trailing" constant="-24" id="f0I-u4-5CG"/>
                             <constraint firstItem="8ef-HQ-lJC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="gEt-ct-EFw"/>
                             <constraint firstItem="HhW-EB-9hU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gtN-Av-itz"/>
                             <constraint firstItem="8TA-EP-Hws" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lHH-gl-u9i"/>
                             <constraint firstItem="BjW-5g-ISz" firstAttribute="top" secondItem="8TA-EP-Hws" secondAttribute="bottom" constant="25" id="n9f-v8-G2o"/>
                             <constraint firstItem="cYL-rh-GxZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tbM-FD-wSZ"/>
+                            <constraint firstItem="DZI-G5-Jts" firstAttribute="top" secondItem="cYL-rh-GxZ" secondAttribute="bottom" constant="8" id="yDg-zn-GSc"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="cityNameLabel" destination="DZI-G5-Jts" id="rnf-sb-Anc"/>
                         <outlet property="cityTextField" destination="BjW-5g-ISz" id="jBB-BM-C3d"/>
                         <outlet property="weatherSummaryLabel" destination="9D5-53-Iet" id="I4V-hr-v19"/>
                     </connections>
